@@ -26,7 +26,4 @@ questions that administrators, deans, and teachers will find useful.
       * Course Offerings
       * Courses
 2. Created an ERD 
-   * [Database Design](file:///C:/Users/User/Downloads/_Entity%20Relationship%20Diagram%20(1).pdf)
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+   * [Database Design][file:///C:/Users/User/Downloads/_Entity%20Relationship%20Diagram%20(1).pdf]
