@@ -1,6 +1,6 @@
 # SQL DISTINCT 
 
-By: Anthony Pellegrino, Keisla, and George
+By: Keisla Medina, Anthony Pellegrino, and George Toutoungi
 
 ## Description
 
