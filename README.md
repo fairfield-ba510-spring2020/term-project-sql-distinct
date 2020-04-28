@@ -1,6 +1,6 @@
 # SQL DISTINCT 
 
-By: Keisla Medina, Anthony Pellegrino, and George Toutoungi
+By: Anthony Pellegrino, Keisla, and George
 
 ## Description
 
@@ -8,7 +8,7 @@ Put our skills to the test and utilized SQL and minimal python to work together 
 questions that administrators, deans, and teachers will find useful.
 
 * Fairfield University course registration data
-* Analyzed the data
+* Analyzed the source data
   * Academic Calendar
   * Catalogs
   * Terms : Each term folder consisted of mulptiple data source. A courses.csv, course_meetings.csv, course_offerings.csv, etc. 
@@ -74,7 +74,7 @@ questions that administrators, deans, and teachers will find useful.
     * How many courses has an instructor taught? (Join Course_Facts on InstructorID and select CatalogID, Term, and InstructorName and count Catalog_ID)
     * How many courses are in each program? (Joing Course_Facts on Programs and select ProgramName and Count (CatalogID)
     * On Thursdays how many classes are offered at lunchtime? (Join Course_Facts on Time_Slices select Day and Start Time and count (Catalog_ID) and use where (Day = R and Start = 12:30)
-3. **Link notebook here**
+3. [Datawarehouse Integrity Tests](DataWarehouse_Test.ipynb)
 
 ## Results
 1. To see the datawarehouse in use, we constructed sample questions that would be useful to adminstrators and individuals who will be utilizing the datawarehouse
@@ -85,6 +85,6 @@ questions that administrators, deans, and teachers will find useful.
     * Do we need to staff more teachers for the Finance Dept. due to popularity of the major? (Count the number of courses in the program, count the number of professors, and divide to get the ratio)
     * What is the least popular class time? Should we substitute this time classes in this time slot with other times?
     * What are the least popular courses to take? Do they belong to a specific program? Should we consider removing them from the course catalog? 
-3. **Link datawarehouse demo results here**
+3. [Demo Questions](Demo_Questions.ipynb)
 
 ## Thank you! Any Questions?
