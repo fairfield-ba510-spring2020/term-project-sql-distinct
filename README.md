@@ -74,7 +74,7 @@ questions that administrators, deans, and teachers will find useful.
     * How many courses has an instructor taught? (Join Course_Facts on InstructorID and select CatalogID, Term, and InstructorName and count Catalog_ID)
     * How many courses are in each program? (Joing Course_Facts on Programs and select ProgramName and Count (CatalogID)
     * On Thursdays how many classes are offered at lunchtime? (Join Course_Facts on Time_Slices select Day and Start Time and count (Catalog_ID) and use where (Day = R and Start = 12:30)
-3. [Datawarehouse Integrity Tests](DataWarehouse_Test.ipynb)
+3. [Datawarehouse Integrity Tests](DataWarehouse_Tests.ipynb)
 
 ## Results
 1. To see the datawarehouse in use, we constructed sample questions that would be useful to adminstrators and individuals who will be utilizing the datawarehouse
