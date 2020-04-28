@@ -31,7 +31,7 @@ questions that administrators, deans, and teachers will find useful.
 
 ## Creating the Database
 1. Using the template from the ERD, we created a new database called: *CourseData.db*
-2. Created 7 unique tables
+2. Created 6 unique tables
     * Courses
     * Course Offerings
     * Course Meetings
